@@ -1,0 +1,19 @@
+body {
+ color: black;
+} 
+
+h1 {
+ color: purple;
+ font-family: 'Handlee', cursive;
+ font-size: 45px;
+}
+
+h2 {
+color: purple;
+font-family: 'Handlee', cursive;
+font-size: 20px;
+}
+
+li {
+ color: blue;
+}

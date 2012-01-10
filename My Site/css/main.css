@@ -17,3 +17,12 @@ font-size: 20px;
 li {
  color: blue;
 }
+
+.obituary {
+ background-color: #999;
+ border: 3px solid #666;
+ border-radius: 10px;
+ border-top-right-radius: 20px;
+ margin-bottom: 10px;
+ padding: 5px;
+}

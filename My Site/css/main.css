@@ -1,11 +1,64 @@
 body {
  color: black;
+ font-size: 12px;
+ font-family: 'Helvetica Neue', Arial, san-serif;
+ line-height: 1.5;
+ width: 790px;
+ margin: 0 auto;
 } 
+
+h1,h2 {
+ margin: 0;
+}
+
+p {
+ margin: 0;
+}
+
+img {
+ border: 2px solid #333;
+ margin: 5px;
+}
+
+header {
+ background: lightblue;
+ width: 790px;
+}
+
+.navigation {
+ font-family: 'Fresca', sans-serif;
+ font-size: 20px;
+}
+
+aside {
+ background: #e3e3e3;
+ width: 365px;
+ float: left;
+}
+
+#facts {
+ background: #e3e3e3;
+ width: 420px;
+ float: left;
+ margin: 2px;
+}
+
+footer {
+ background: lightblue;
+ width: 400px;
+ clear: left;
+}
+
+header p, footer p {
+ margin-bottom: 0
+ padding-bottom: 15px;
+}
 
 h1 {
  color: purple;
  font-family: 'Handlee', cursive;
  font-size: 45px;
+ background: lightblue;
 }
 
 h2 {
@@ -14,15 +67,19 @@ font-family: 'Handlee', cursive;
 font-size: 20px;
 }
 
-li {
- color: blue;
+a:link {
+ color:#ff28bc;
 }
 
-.obituary {
- background-color: #999;
- border: 3px solid #666;
- border-radius: 10px;
- border-top-right-radius: 20px;
- margin-bottom: 10px;
- padding: 5px;
+a:visited {
+ color:#bcbcbc;
 }
+
+a:hover {
+ color:#0d7cff;
+}
+
+a:active {
+ color:#9112ff;
+}
+

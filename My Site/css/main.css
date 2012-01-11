@@ -68,7 +68,7 @@ font-size: 20px;
 }
 
 a:link {
- color:purple;
+ color:#ff28bc;
 }
 
 a:visited {
@@ -80,6 +80,6 @@ a:hover {
 }
 
 a:active {
- color:#9112ff;
+ color:purple;
 }
 

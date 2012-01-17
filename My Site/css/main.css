@@ -45,6 +45,7 @@ header {
 .navigation {
  font-family: 'Fresca', sans-serif;
  font-size: 20px;
+ margin: 2px;
 }
 
 #obituary {

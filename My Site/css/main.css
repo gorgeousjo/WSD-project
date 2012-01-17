@@ -3,7 +3,7 @@ body {
  font-size: 95%/* 12px */;
  font-family: 'Helvetica Neue', Arial, san-serif;
  line-height: 1.5;
- width: 80% /* 790px */;
+ width: 100% /* 790px */;
  margin: 0 auto;
 } 
 
@@ -22,6 +22,11 @@ ul {
 
 img {
  border: 2px solid #333;
+ margin: 3px;
+ max-width: 100%;;
+}
+
+#niece {
  margin: 5px;
 }
 
@@ -44,13 +49,20 @@ header {
 
 #obituary {
  background: #e3e3e3;
- width: 46.202531645% /*365px/790px */;
+ width: 45.625% /*365px/800px */;
  float: left;
 }
 
 #facts {
  background: #e3e3e3;
- width: 53.164556962% /*420px/790px */;
+ width: 52.5
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  float: left;
  margin: 2px;
 }

@@ -1,9 +1,9 @@
 body {
  color: black;
- font-size: 12px;
+ font-size: 95%/* 12px */;
  font-family: 'Helvetica Neue', Arial, san-serif;
  line-height: 1.5;
- width: 790px;
+ width: 80% /* 790px */;
  margin: 0 auto;
 } 
 
@@ -12,7 +12,12 @@ h1,h2 {
 }
 
 p {
+ font-size: 0.8125em /* 13px */;
  margin: 0;
+}
+
+ul {
+ font-size: 0.8125em /* 13px */;
 }
 
 img {
@@ -22,7 +27,14 @@ img {
 
 header {
  background: lightblue;
- width: 790px;
+ width: 95% /* 790px */;
+}
+
+#wrapper {
+ width: 95% /* 790px */;
+ margin: 0 auto;
+ border: 2px solid #333;
+ padding: 2px;
 }
 
 .navigation {
@@ -32,20 +44,20 @@ header {
 
 #obituary {
  background: #e3e3e3;
- width: 365px;
+ width: 46.202531645% /*365px/790px */;
  float: left;
 }
 
 #facts {
  background: #e3e3e3;
- width: 420px;
+ width: 53.164556962% /*420px/790px */;
  float: left;
  margin: 2px;
 }
 
 footer {
  background: lightblue;
- width: 790px;
+ width: 95% /* 790px */;
  clear: left;
 }
 
@@ -57,7 +69,7 @@ header p, footer p {
 h1 {
  color: purple;
  font-family: 'Handlee', cursive;
- font-size: 45px;
+ font-size: 3.75em;
  background: lightblue;
 }
 

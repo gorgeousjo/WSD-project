@@ -1,0 +1,106 @@
+body {
+ color: black;
+ font-size: 95%/* 12px */;
+ font-family: 'Helvetica Neue', Arial, san-serif;
+ line-height: 1.5;
+ width: 100% /* 790px */;
+ margin: 0 auto;
+} 
+
+h1,h2 {
+ margin: 0;
+}
+
+p {
+ font-size: 0.8125em /* 13px */;
+ margin: 0;
+}
+
+ul {
+ font-size: 0.8125em /* 13px */;
+}
+
+img {
+ border: 2px solid #333;
+ margin: 3px;
+ max-width: 100%;;
+}
+
+#niece {
+ margin: 5px;
+}
+
+header {
+ background: lightblue;
+ width: 95% /* 790px */;
+}
+
+#wrapper {
+ width: 95% /* 790px */;
+ margin: 0 auto;
+ border: 2px solid #333;
+ padding: 2px;
+}
+
+.navigation {
+ font-family: 'Fresca', sans-serif;
+ font-size: 20px;
+ margin: 2px;
+}
+
+#obituary {
+ background: #e3e3e3;
+ width: 45.625% /*365px/800px */;
+ float: left;
+}
+
+#facts {
+ background: #e3e3e3;
+ width: 52.5%;
+ float: left;
+ margin: 2px;
+}
+
+footer {
+ background: lightblue;
+ width: 95% /* 790px */;
+ clear: left;
+}
+
+header p, footer p {
+ margin-bottom: 0
+ padding-bottom: 15px;
+}
+
+h1 {
+ color: purple;
+ font-family: 'Handlee', cursive;
+ font-size: 3.75em;
+ background: lightblue;
+}
+
+h2 {
+color: purple;
+font-family: 'Handlee', cursive;
+font-size: 20px;
+}
+
+a:link {
+ color:#000;
+}
+
+a:visited {
+ color:#000;
+}
+
+a:hover {
+ color:#0d7cff;
+}
+
+a:active {
+ color:purple;
+}
+
+a {
+ text-decoration: none;
+}

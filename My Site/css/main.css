@@ -22,6 +22,7 @@ ul {
 
 img {
  border: 2px solid #333;
+ border-radius: 10px;
  margin: 3px;
  max-width: 100%;
 }
@@ -39,19 +40,24 @@ header {
  width: 95% /* 790px */;
  margin: 0 auto;
  border: 2px solid #333;
- padding: 2px;
+ border-radius: 10px;
+ box-shadow: 3px 3px 3px #111;
+ padding: 3px;
 }
 
 .navigation {
  font-family: 'Fresca', sans-serif;
  font-size: 20px;
- margin: 2px;
+ text-align: center;
+ text-shadow: .5px .5px .5px #111;
+ margin: 0 auto;
 }
 
 #obituary {
  background: #e3e3e3;
  width: 45.625% /*365px/800px */;
  float: left;
+ border-radius: 10px;
 }
 
 #facts {
@@ -59,6 +65,7 @@ header {
  width: 52.5%;
  float: left;
  margin: 2px;
+ border-radius: 10px;
 }
 
 footer {
@@ -76,6 +83,7 @@ h1 {
  color: purple;
  font-family: 'Handlee', cursive;
  font-size: 3.75em;
+ text-shadow: 2px 2px 2px #111;
  background: lightblue;
 }
 
@@ -83,6 +91,7 @@ h2 {
 color: purple;
 font-family: 'Handlee', cursive;
 font-size: 20px;
+text-shadow: 1px 1px 1px #111;
 }
 
 a:link {
@@ -104,3 +113,32 @@ a:active {
 a {
  text-decoration: underline;
 }
+
+/* =Media Queries
+================================================================== */
+
+	/* Tablet Portrait size standard 960 (device and browsers) */
+	@media screen and (min-width:700px) and (max-width:959px) {
+	 #wrapper { background-color:#509cff; }
+	 
+}
+
+	/* Mobile Landscape Size to Tablet Portrait (device and browsers) */
+	@media only screen and (min-width:480px) and (max-width:767px) {
+	 #wrapper { background-color:#9E7BFF; }
+	 #obituary { width:90%;}
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (device and browsers) */
+	@media only screen and (max-width:479px) {
+	 #wrapper { background-color:#D2B9D3;}
+	 #obituary { width:90%;}
+	 #fact { width:90%;}
+}
+
+
+
+
+
+
+

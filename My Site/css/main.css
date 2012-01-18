@@ -87,6 +87,7 @@ h1 {
  font-family: 'Handlee', cursive;
  font-size: 3.75em;
  text-shadow: 2px 2px 2px #111;
+ text-align: center;
  background: lightblue;
 }
 
@@ -94,6 +95,7 @@ h2 {
 color: purple;
 font-family: 'Handlee', cursive;
 font-size: 20px;
+text-align: center;
 text-shadow: 1px 1px 1px #111;
 }
 
@@ -106,22 +108,18 @@ a:visited {
 }
 
 a:hover {
- color:white;
+ color: white;
  background: #4E387E;
  
 }
 
 a:active {
- color:purple;
+ color: #05EDFF;
 }
 
 a {
-<<<<<<< HEAD
  text-decoration: none;
  text-align: center;
-=======
- text-decoration: underline;
->>>>>>> 1bbf80778b37cc4b8470f2a501d10e14ec0d2b90
 }
 
 /* =Media Queries

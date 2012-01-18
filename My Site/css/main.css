@@ -107,7 +107,8 @@ a:visited {
 }
 
 a:hover {
- color:#0d7cff;
+ color: white;
+ background: #4E387E;
 }
 
 a:active {
@@ -116,6 +117,8 @@ a:active {
 
 a {
  text-decoration: underline;
+ text-decoration: none;
+ text-align: center;
 }
 
 /* =Media Queries

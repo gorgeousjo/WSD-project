@@ -86,6 +86,7 @@ h1 {
  font-family: 'Handlee', cursive;
  font-size: 3.75em;
  text-shadow: 2px 2px 2px #111;
+ text-align: center;
  background: lightblue;
 }
 
@@ -93,6 +94,7 @@ h2 {
 color: purple;
 font-family: 'Handlee', cursive;
 font-size: 20px;
+text-align: center;
 text-shadow: 1px 1px 1px #111;
 }
 

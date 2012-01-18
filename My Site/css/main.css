@@ -116,8 +116,12 @@ a:active {
 }
 
 a {
+<<<<<<< HEAD
  text-decoration: none;
  text-align: center;
+=======
+ text-decoration: underline;
+>>>>>>> 1bbf80778b37cc4b8470f2a501d10e14ec0d2b90
 }
 
 /* =Media Queries

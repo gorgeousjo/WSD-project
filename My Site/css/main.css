@@ -3,7 +3,7 @@ body {
  font-size: 95%/* 12px */;
  font-family: 'Helvetica Neue', Arial, san-serif;
  line-height: 1.5;
- width: 100% /* 790px */;
+ width: 100% /* 800px */;
  margin: 0 auto;
 } 
 
@@ -33,11 +33,11 @@ img {
 
 header {
  background: lightblue;
- width: 95% /* 790px */;
+ width: 95% /* 800px */;
 }
 
 #wrapper {
- width: 95% /* 790px */;
+ width: 95% /* 800px */;
  margin: 0 auto;
  border: 2px solid #333;
  border-radius: 10px;
@@ -46,9 +46,11 @@ header {
 }
 
 .navigation {
+ background: lightblue;
  font-family: 'Fresca', sans-serif;
  font-size: 20px;
  text-align: center;
+ width: 62.5%; /* 500px/800px */
  text-shadow: .5px .5px .5px #111;
  margin: 0 auto;
 }
@@ -70,7 +72,7 @@ header {
 
 footer {
  background: lightblue;
- width: 95% /* 790px */;
+ width: 95% /* 800px */;
  clear: left;
 }
 

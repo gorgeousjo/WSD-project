@@ -50,7 +50,7 @@ header {
  font-family: 'Fresca', sans-serif;
  font-size: 20px;
  text-align: center;
- width: 62.5%; /* 500px/800px */
+ width: 62.5% /* 500px/800px */;
  text-shadow: .5px .5px .5px #111;
  margin: 0 auto;
 }
@@ -74,8 +74,8 @@ header {
 #side {
  font-family: 'Handlee', cursive;
  font-size: 0.875em /* 14px */;
- width: 45%;
- margin: 70px;
+ width: 40%;
+ margin: 8px;
  float: left;
  }
 
@@ -99,7 +99,7 @@ float: left;
 }
 
 header p, footer p {
- margin-bottom: 0
+ margin-bottom: 0;
  padding-bottom: 15px;
 }
 
@@ -162,3 +162,4 @@ a {
 	 #wrapper { background-color:#D2B9D3;}
 	 #obituary { width:90%;}
 	 #fact { width:90%;}
+}

@@ -71,10 +71,31 @@ header {
  border-radius: 10px;
 }
 
+#side {
+ font-family: 'Handlee', cursive;
+ font-size: 0.875em /* 14px */;
+ width: 45%;
+ margin: 70px;
+ float: left;
+ }
+
 footer {
  background: lightblue;
  width: 95% /* 800px */;
  clear: left;
+}
+
+table {
+ border-collapse: collapse; 
+ padding: 0.3em;
+}
+
+td {
+ border: 1pox solid #000;
+}
+
+form {
+float: left; 
 }
 
 header p, footer p {
@@ -110,7 +131,6 @@ a:visited {
 a:hover {
  color: white;
  background: #4E387E;
- 
 }
 
 a:active {
@@ -142,4 +162,3 @@ a {
 	 #wrapper { background-color:#D2B9D3;}
 	 #obituary { width:90%;}
 	 #fact { width:90%;}
-}

@@ -1,14 +1,14 @@
 body {
  color: black;
  font-size: 95%/* 12px */;
- font-family: 'Helvetica Neue', Arial, san-serif;
+ font-family: 'Handlee', cursive;
  line-height: 1.5;
  width: 100% /* 800px */;
  margin: 0 auto;
 } 
 
 h1,h2 {
- margin: 0;
+ margin: 0 auto;
 }
 
 p {
@@ -27,9 +27,6 @@ img {
  max-width: 100%;
 }
 
-#niece {
- margin: 5px;
-}
 
 header {
  background: lightblue;
@@ -50,7 +47,7 @@ header {
  font-family: 'Fresca', sans-serif;
  font-size: 20px;
  text-align: center;
- width: 62.5% /* 500px/800px */;
+ width: 62.5%; /* 500px/800px */
  text-shadow: .5px .5px .5px #111;
  margin: 0 auto;
 }
@@ -74,8 +71,8 @@ header {
 #side {
  font-family: 'Handlee', cursive;
  font-size: 0.875em /* 14px */;
- width: 40%;
- margin: 8px;
+ width: 45%;
+ margin: 5px;
  float: left;
  }
 
@@ -86,12 +83,20 @@ footer {
 }
 
 table {
+ border: 1px solid #000;
+ width: 70%;
  border-collapse: collapse; 
  padding: 0.3em;
 }
 
 td {
- border: 1pox solid #000;
+ border: 1px solid #000;
+ padding: 0.3em;
+}
+
+tr {
+ float:left;
+ text-align: center;
 }
 
 form {
@@ -99,7 +104,7 @@ float: left;
 }
 
 header p, footer p {
- margin-bottom: 0;
+ margin-bottom: 0
  padding-bottom: 15px;
 }
 
@@ -162,4 +167,5 @@ a {
 	 #wrapper { background-color:#D2B9D3;}
 	 #obituary { width:90%;}
 	 #fact { width:90%;}
+	 #side { width:90%;}
 }
